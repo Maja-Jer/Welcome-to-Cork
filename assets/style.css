@@ -1,0 +1,73 @@
+/*----------------------- header*/
+
+head {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/*----------------------navigation bar*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+li {
+  float: left;
+}
+
+navbar-brand {
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #a3c2c2;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+modal-header {
+  color: white;
+  text-decoration: none;
+}
+
+/* ---------------------------------- Container*/
+
+.callout {
+  height: 300pxl display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+}
+
+.container-main-photo {}
+
+.container-about-cork {
+  font-size: 24px
+
+}
+  
+
+ 
+}
