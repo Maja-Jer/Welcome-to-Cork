@@ -7,7 +7,9 @@ head {
 body {
   font: 20px Montserrat, sans-serif;
   line-height: 1.8;
-  color: #A9A9A9;
+  color: #333;
+  display: block;
+  padding: 10px 20px 75px 20px;
   
 
 }
@@ -41,7 +43,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #FF5A5F;
+  background-color: #9FA8DA;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -68,6 +70,7 @@ li a:hover {
   max-width: 830px;
   padding: 2em 0 0 0;
   text-align: left;
+}
 
 .site-photo {
   position: relative;
@@ -81,20 +84,32 @@ li a:hover {
   line-height: 1.7;
   color: #333;
 }
-  
 
-/* ---------------------------------- Container*/
 
-.main-container {
-   
-   color: #595959;
+
+/* ---------------------------------- Containers*/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
+.container-main-photo {
+  max-height: 730px;
+  max-width: 1160px;
+  padding: 30px;
+  margin: 10px;
+  overflow: auto;
+}
 
 
 #container-about-cork {
   font-size: 16px;
   margin: 25px 50px 75px;
+  padding: 30px;
+ 
 
 }
 @media screen and (min-width: 600px) {
@@ -108,4 +123,42 @@ li a:hover {
   font-size: 14px;
   margin: 25px 10px 75px 20px;
   }
+}
+
+.container-ucc {
+  
+}
+
+
+
+/*---------------------footer*/
+
+.p-3 {
+    padding: 1rem!important;
+}
+
+.mt-5, .my-5 {
+    margin-top: 3rem!important;
+  
+}
+
+.bg-secondary {
+    background-color: #6c757d!important;
+}
+
+.footer {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-white {
+  color: #fff!important;
+}
+
+.col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
 }
