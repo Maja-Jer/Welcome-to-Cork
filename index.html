@@ -3,22 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
     <title>Welcome to Cork, the REAL capital of Ireland</title>
 </head>
 
 <body>
-    
+
     <!---------------Navgation-------->
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a href="/" class="navbar-brand">Welcome to Cork</a>
-        
-    <!---------------Dropdown menu-------->
+
+        <!---------------Dropdown menu-------->
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 
@@ -27,37 +28,24 @@
                 <li class="nav-item mr-2"><a class="nav-link" href="#see">See</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="#experience">Experience</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="#party">Party</a></li>
-                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#login">Sign In / Sign Up</a></li>
+
             </ul>
         </div>
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr2"><i>Sign In / Sign Up to get the latest discounts</i></p>
-            <button type="button" class="btn btn-lg btn-light" data-toggle="modal" data-target="#signUpModal">
-            <a href="/login" data-toggle="modal" data-target="#signUpModal">Sign In / Sign Up</a>
-            </button>
-        </div>
-    </nav>
-    
-    <!--------------- Callout, not necessary in next pages so delete when duplicating pages -------->
-    <article class="container">
-        <section class="callout">
-            <h1>Welcome to Cork</h1>
-            <h3>the REAL capital of Ireland</h3>
-            <p>Learn why is Cork called the Rebel City</p>
-        </section>
-        <hr>
-    </a>
-    
-    <!--------------- Main photo -------->
 
+    </nav>
+
+  <!--------------- Main photo -------->
+    <div class="main-container">
     <div class="container-main-photo container-fluid">
         <img src="assets/photos/patrick_street.jpg" alt="Cork City" width=100%>
     </div>
 
-    <!--------------- About Cork -------->
 
-    <div class="container-about-cork">
-        <p class="about-cork">
+
+
+        <!--------------- About Cork -------->
+
+        <div class="container-fluid" id="container-about-cork">
             Cork is the second largest city in the Republic of Ireland with a population of 210 000 inhabitants.
             <br>
             <p>Cork was the European Capital of Culture for 2005, and in 2009 was included in the Lonely Planet's top 10 "Best in Travel 2010". The guide described Cork as being "at the top of its game: sophisticated, vibrant and diverse".
@@ -75,44 +63,17 @@
                 at the city's Ferrero factory. [wikipedia]
             </p>
             <br>
-            <p>Some of the famous Corkonians include: <br><strong>Jack Gleeson</strong> (Joffrey from Game of Thrones), <strong>Cillian Murphy</strong> (of Peaky Blinders fame), <strong>Jonathan Rys-Meyers</strong> (King Henry VII in Tudors), <strong>Roy Keane</strong> (footballer)
+            <p>Some of the famous Corkonians include: <br><strong>Jack Gleeson</strong> (Joffrey from Game of Thrones), <strong>Cillian Murphy</strong> (of Peaky Blinders fame), <strong>Jonathan Rys-Meyers</strong> (King Henry VII in Tudors), <strong>Roy Keane</strong>                (footballer)
             </p>
-        </p>
+            </p>
 
-        <!---------------Sign In / Sign Up Modal -------->
-        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Sign In / Sign Up to get the latest discounts</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Password</label>
-                                <input type="password" class="form-control" id="Password" placeholder="Password">
-                            </div>
-                            <button type="submit" class="btn btn-info">Submit</button>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-info">Save changes</button>
-                    </div>
-                </div>
-            </div>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
         </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </main>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

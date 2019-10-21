@@ -5,7 +5,10 @@ head {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #A9A9A9;
+  
 
 }
 
@@ -25,7 +28,7 @@ li {
 }
 
 navbar-brand {
-  
+  color: black;
 }
 
 li a {
@@ -38,36 +41,71 @@ li a {
 }
 
 li a:hover {
-  background-color: #a3c2c2;
+  background-color: #FF5A5F;
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-modal-header {
-  color: white;
-  text-decoration: none;
+/*---------------------end of navigation bar*/
+
+.main-container {
+
+  
 }
+.container-main-photo {
+  max-height: 300px
+  max-width: 80%;
+  
+}
+
+/* ---------------------------------- Article*/
+.article {
+  position: relative;
+  vertical-align: top;
+  background-color: #fff
+  margin-bottom: 1em;
+  max-width: 830px;
+  padding: 2em 0 0 0;
+  text-align: left;
+
+.site-photo {
+  position: relative;
+  text-align: center;
+  margin-bottom: 1.6em;
+}
+
+.site-description {
+  margin: 2em 5% 2em 5%;
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #333;
+}
+  
 
 /* ---------------------------------- Container*/
 
-.callout {
-  height: 300pxl display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  
+.main-container {
+   
+   color: #595959;
 }
 
+
+
+#container-about-cork {
+  font-size: 16px;
+  margin: 25px 50px 75px;
+
 }
-
-.container-main-photo {}
-
-.container-about-cork {
-  font-size: 24px
-
+@media screen and (min-width: 600px) {
+#container-about-cork {
+  font-size: 18px;
+  margin: 25px 20px 75px 20px;
+  }
 }
-  
-
- 
+@media screen and (max-width: 600px) {
+#container-about-cork {
+  font-size: 14px;
+  margin: 25px 10px 75px 20px;
+  }
 }
