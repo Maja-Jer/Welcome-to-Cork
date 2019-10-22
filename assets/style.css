@@ -56,7 +56,7 @@ li a:hover {
   
 }
 .container-main-photo {
-  max-height: 300px
+  max-height: 300px;
   max-width: 80%;
   
 }
@@ -108,11 +108,11 @@ li a:hover {
   width: 50%;
 }
 
-.container-main-photo {
+.main-photo {
+  display: block;
   max-height: 730px;
   max-width: 1160px;
   padding: 30px;
-  margin: 10px;
   overflow: auto;
 }
 
@@ -126,7 +126,7 @@ li a:hover {
 }
 @media screen and (min-width: 600px) {
 #container-about-cork {
-  font-size: 18px;
+  font-size: 20px;
   margin: 25px 20px 75px 20px;
   }
 }
