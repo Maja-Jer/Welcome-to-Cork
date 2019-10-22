@@ -86,7 +86,19 @@ li a:hover {
 }
 
 
+/* ---------------------------------- Title*/
 
+.title {
+  text-align: left;
+  padding-left:20px;
+}
+
+.title-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+
+}
 /* ---------------------------------- Containers*/
 
 .center {
@@ -125,7 +137,7 @@ li a:hover {
   }
 }
 
-.container-ucc {
+.container-ucc-campus {
   
 }
 
