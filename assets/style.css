@@ -78,6 +78,20 @@ li a:hover {
   color: #333;
 }
 
+@media screen and (max-width: 600px){
+.all-sites {
+  font-size: 18px;
+  margin: 25px 0px 75px 0px;
+  padding: 0px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+.all-sites {
+  font-size: 20px;
+  margin: 25px 20px 75px 20px;
+  }
+}
 
 /* ---------------------------------- Title*/
 
