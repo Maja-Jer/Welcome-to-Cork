@@ -51,11 +51,8 @@ li a:hover {
 
 /*---------------------end of navigation bar*/
 
-.main-container {
 
-  
-}
-.container-main-photo {
+.container {
   max-height: 300px;
   max-width: 80%;
   
@@ -101,6 +98,11 @@ li a:hover {
 }
 /* ---------------------------------- Containers*/
 
+.img-fluid {
+  min-width: 100%;
+  height: auto;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -108,19 +110,10 @@ li a:hover {
   width: 50%;
 }
 
-.main-photo {
-  display: block;
-  max-height: 730px;
-  max-width: 1160px;
-  padding: 30px;
-  overflow: auto;
-}
-
 
 #container-about-cork {
   font-size: 16px;
-  margin: 25px 50px 75px;
-  padding: 30px;
+  margin: 10px 50px 75px;
  
 
 }
@@ -133,7 +126,8 @@ li a:hover {
 @media screen and (max-width: 600px) {
 #container-about-cork {
   font-size: 14px;
-  margin: 25px 10px 75px 20px;
+  margin: 25px 0px 75px 0px;
+  padding: 0px;
   }
 }
 
