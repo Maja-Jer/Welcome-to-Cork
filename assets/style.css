@@ -95,17 +95,16 @@ li a:hover {
 
 /* ---------------------------------- Title*/
 
+.introduction {
+  text-align: center;
+  padding: 20px;
+}
+
 .title {
-  text-align: left;
-  padding-left:20px;
+  text-align: center;
 }
 
-.title-row {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  
 
-}
 /* ---------------------------------- Containers*/
 
 .img-fluid {
@@ -141,7 +140,9 @@ li a:hover {
   }
 }
 
-.container-ucc-campus {
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
   
 }
 
